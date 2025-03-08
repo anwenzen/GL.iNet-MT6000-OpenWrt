@@ -30,7 +30,7 @@ EOF
 
 
 # enable wifi without password default
-mkdir -p files/etc/config/wireless
+mkdir -p files/etc/config
 cat <<EOF > files/etc/config/wireless
 
 config wifi-device 'radio0'
