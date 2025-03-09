@@ -51,6 +51,7 @@ jobs:
       working-directory: /mnt/workdir
       run: |
         df -hT
+        df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf $WORKDIR/openwrt $GITHUB_WORKSPACE/openwrt
 
