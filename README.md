@@ -1,17 +1,16 @@
 ## Plugin
 
-- OpenClash
-- Smaba
-- Docker
+- Luci/luci-theme-argon
+- OpenClash/meta_core
+- USB/Smaba4
+- Docker/filesystem
 - HDD Idle
 
 ## Wifi
 
     OpenWrt
     OpenWrt_5G
-    `wed_enable=Y`
-
-
+    WED
 
 ## License
 
